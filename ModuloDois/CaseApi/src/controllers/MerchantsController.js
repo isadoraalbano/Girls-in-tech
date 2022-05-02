@@ -82,8 +82,7 @@ class MerchantController {
             const date = Date.now()
             const dateMessage = new Date(date);
             const index = findIndex(id)
-            const messageBody = req.body.message;
-            newMerchants[index][message] = { text: messageBody, date: dateMessage }
+            newMerchants[index][message] = { text: req.body.message, date: dateMessage }
             return res
                 .status(200)
                 .json(`A mensagem foi enviada com sucesso ao restaurante ${newMerchants[index].merchant}!`)

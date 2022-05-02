@@ -1,0 +1,279 @@
+[
+    {
+        "merchantId": 1,
+        "merchant": "Rei do Mate Francis",
+        "headOffice": true,
+        "headOfficeId": 1,
+        "branch": false,
+        "categories": [
+            "Bebidas",
+            "Buffet Livre",
+            "Pratos prontos",
+            "Lanches",
+            "Comida Vegetariana"
+        ],
+        "businessHours": {
+            "days": [
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+            ],
+            "schedule": [
+                {
+                    "startTime": "11:00",
+                    "finishTime": "22:00"
+                }
+            ]
+        },
+        "status": "",
+        "serviceType": [
+            "Delivery",
+            "Takeaway"
+        ],
+        "address": {
+            "state": "RS",
+            "city": "Porto Alegre",
+            "neighborhood": "",
+            "streetName": "Avenida Francis",
+            "number": 1830,
+            "postalCode": "10989190",
+            "coordinates": {
+                "latitude": 654234,
+                "longitude": 436534
+            }
+        },
+        "averageTicket": "R$718.910,81"
+    },
+    {
+        "merchantId": 2,
+        "merchant": "Outback SteakHouse",
+        "headOffice": true,
+        "headOfficeId": 2,
+        "branch": false,
+        "categories": [
+            "Bebidas",
+            "Pizzas",
+            "Pratos prontos",
+            "Comida Vegetariana",
+            "Sobremesas"
+        ],
+        "businessHours": {
+            "days": [
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "schedule": [
+                {
+                    "startTime": "11:00",
+                    "finishTime": "01:00"
+                }
+            ]
+        },
+        "status": "OPEN",
+        "serviceType": [
+            "Delivery",
+            "Takeaway",
+            "Indoor"
+        ],
+        "address": {
+            "state": "RJ",
+            "city": "Barra da Tijuca",
+            "neighborhood": "",
+            "streetName": "Avenida do Estado",
+            "number": 121,
+            "postalCode": "98680149",
+            "coordinates": {
+                "latitude": -97423,
+                "longitude": -5416788
+            }
+        },
+        "averageTicket": "R$3.105.980,19"
+    },
+    {
+        "merchantId": 3,
+        "merchant": "Outback Jundiaí",
+        "headOffice": false,
+        "headOfficeId": 2,
+        "branch": true,
+        "categories": [
+            "Bebidas",
+            "Pizzas",
+            "Pratos prontos",
+            "Comida Vegetariana",
+            "Sobremesas"
+        ],
+        "businessHours": {
+            "days": [
+                "Saturday"
+            ],
+            "schedule": [
+                {
+                    "startTime": "11:00",
+                    "finishTime": "14:00"
+                },
+                {
+                    "startTime": "17:00",
+                    "finishTime": "02:00"
+                }
+            ]
+        },
+        "status": "OPEN",
+        "serviceType": [
+            "Delivery",
+            "Takeaway"
+        ],
+        "address": {
+            "state": "SP",
+            "city": "Jundiaí",
+            "neighborhood": "",
+            "streetName": "Rua Pedro",
+            "number": 32,
+            "postalCode": "98089589",
+            "coordinates": {
+                "latitude": 21414,
+                "longitude": 9342
+            }
+        },
+        "averageTicket": "R$2.199.00,058"
+    },
+    {
+        "merchantId": 4,
+        "merchant": "Outback Max Ville",
+        "headOffice": false,
+        "headOfficeId": 2,
+        "branch": true,
+        "categories": [
+            "Bebidas",
+            "Pizzas",
+            "Rodízio de massas",
+            "Pratos prontos",
+            "Comida Vegetariana",
+            "Sobremesas"
+        ],
+        "businessHours": {
+            "days": [
+                "Saturday"
+            ],
+            "schedule": [
+                {
+                    "startTime": "11:00",
+                    "finishTime": "14:00"
+                },
+                {
+                    "startTime": "17:00",
+                    "finishTime": "02:00"
+                }
+            ]
+        },
+        "status": "Closed",
+        "serviceType": [
+            "Takeaway"
+        ],
+        "address": {
+            "state": "MG",
+            "city": "Extrema",
+            "neighborhood": "",
+            "streetName": "Estrada das Oliveiras",
+            "number": 990,
+            "postalCode": "37604000",
+            "coordinates": {
+                "latitude": 985435,
+                "longitude": 23724
+            }
+        },
+        "averageTicket": "R$1.890.359,09378"
+    },
+    {
+        "merchantId": 5,
+        "merchant": "Outback Pátio Savassi",
+        "headOffice": false,
+        "headOfficeId": 2,
+        "branch": true,
+        "categories": [
+            "Bebidas",
+            "Pratos prontos",
+            "Comida Vegetariana",
+            "Sobremesas"
+        ],
+        "businessHours": {
+            "days": [
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "schedule": [
+                {
+                    "startTime": "11:00",
+                    "finishTime": "01:00"
+                }
+            ]
+        },
+        "status": "",
+        "serviceType": [
+            "Delivery",
+            "Indoor"
+        ],
+        "address": {
+            "state": "MG",
+            "city": "Belo Horizonte",
+            "neighborhood": "",
+            "streetName": "Avenida do Contorno",
+            "number": 6061,
+            "postalCode": "30110929",
+            "coordinates": {
+                "latitude": 89734,
+                "longitude": 127834
+            }
+        },
+        "averageTicket": "R$1.751.963,332"
+    },
+    {
+        "merchantId": 6,
+        "merchant": "Rei do Mate Lago Azul",
+        "headOffice": false,
+        "headOfficeId": 1,
+        "branch": true,
+        "categories": [
+            "Bebidas",
+            "Buffet Livre",
+            "Pratos prontos",
+            "Lanches",
+            "Sobremesas"
+        ],
+        "businessHours": {
+            "days": [
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+            ],
+            "schedule": [
+                {
+                    "startTime": "11:00",
+                    "finishTime": "22:00"
+                }
+            ]
+        },
+        "status":"",
+        "serviceType":[
+            "Takeaway"
+        ],
+        "address": {
+            "state": "PA",
+            "city": "Belém",
+            "neighborhood": "",
+            "streetName": "Rua Calangos",
+            "number": 756,
+            "postalCode": "50919340",
+            "coordinates": {
+                "latitude": 98412,
+                "longitude": -845156
+            }
+        },
+        "averageTicket": "R$998.419,906"
+    }
+]

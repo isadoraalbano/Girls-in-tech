@@ -77,15 +77,21 @@ class MerchantController {
     };
 
     static sendMessage(req, res) {
+        //passar como parametro o id da Matriz que deseja enviar msg
         const { id } = req.params
+        let arrayBranch = new Array;
         try {
             const date = Date.now()
-            const dateMessage = new Date(date);
+            const dateMessage = new Date(date).toLocaleDateString() + " - " + new Date(date).toLocaleTimeString();
             const index = findIndex(id)
-            newMerchants[index][message] = { text: req.body.message, date: dateMessage }
+            arrayBranch = filtraFiliais(id)
+            arrayBranch.forEach(element => {
+                element.message = { text: req.body.message, dateTime: dateMessage }
+            });
+
             return res
                 .status(200)
-                .json(`A mensagem foi enviada com sucesso ao restaurante ${newMerchants[index].merchant}!`)
+                .json(`A mensagem foi enviada com sucesso para as filiais do restaurante ${newMerchants[index].merchant}!`)
         }
         catch (error) {
             return res
@@ -115,13 +121,15 @@ class MerchantController {
 
 function findMerchant(id) {
     return newMerchants.find(merchant => merchant.merchantId == id)
-
 }
 
 function findIndex(id) {
     return newMerchants.findIndex(merchant => merchant.merchantId == id)
-
 }
+function filtraFiliais(id) {
+    return newMerchants.filter(merchant => { return merchant.branch == true && merchant.headOfficeId == id })
+}
+
 
 
 export default MerchantController;
